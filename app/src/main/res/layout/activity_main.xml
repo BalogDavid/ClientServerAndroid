@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/startServerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Server" />
+
+    <EditText
+        android:id="@+id/serverIpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startServerBtn"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Server IP" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serverIpEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Message" />
+
+    <Button
+        android:id="@+id/sendMessageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageEditText"
+        android:layout_marginTop="16dp"
+        android:text="Send Message" />
+</RelativeLayout>
